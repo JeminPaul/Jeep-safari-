@@ -1,0 +1,49 @@
+/* Customize the button appearance */
+.react-whatsapp-widget-button {
+    background-color: #25d366; /* WhatsApp green */
+    border-radius: 50%;
+    box-shadow: none;
+  }
+  
+  /* Customize the button icon (WhatsApp logo) */
+  .react-whatsapp-widget-button svg {
+    fill: #fff; /* White color for the icon */
+  }
+  
+  /* WhatsApp button for desktop */
+  .whatsapp_float {
+    position: fixed;
+    width: 40px; /* Decreased width */
+    height: 40px; /* Decreased height */
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 24px; /* Decreased font size */
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+  }
+  
+  .whatsapp-icon {
+    margin-top: 10px;
+  }
+  
+  /* WhatsApp button for mobile */
+  @media screen and (max-width: 767px) {
+    .whatsapp-icon {
+      margin-top: 10px;
+    }
+    
+    .whatsapp_float {
+      width: 30px; /* Decreased width */
+      height: 30px; /* Decreased height */
+      bottom: 20px;
+      right: 10px;
+      font-size: 18px; /* Decreased font size */
+    }
+  }
+  
+  /* Additional styling if needed for other elements */
+  

@@ -1,9 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './Components/Header';
-
-// import Kattadipara from './Pages/Kattadipara';
-// import Pettimudi from './Pages/Pettimudi';
+import Header from './Components/Header';;
 import Packages from './pages/Packages';
 import Contact from './pages/Contact';
 import Anakulam from './pages/Anakulam';
@@ -12,6 +9,9 @@ import Ponmudi from './pages/Ponmudi';
 import Marayoor from './pages/Marayoor';
 import Rooms from './pages/Rooms';
 import Home from './pages/Home';
+import Kattadipara from './pages/Kattadipara';
+import Offroad from './pages/Offroad';
+import Footer from './Components/Footter';
 
 
 function App() {
@@ -27,10 +27,11 @@ function App() {
           <Route path="/vattavada" element={<Vattavada/>} />
           <Route path="/ponmudi" element={<Ponmudi/>} />
           <Route path="/marayoor" element={<Marayoor/>} />
-          {/* <Route path="/kattadipara" element={<Kattadipara />} />
-          <Route path="/pettimudi" element={<Pettimudi />} /> */}
+          <Route path="/kattadipara" element={<Kattadipara/>} />
+          <Route path="/offroad" element={<Offroad/>} />
           <Route path="/rooms" element={<Rooms/>} />
         </Routes>
+        <Footer/>
       </div>
     </Router>
   );
