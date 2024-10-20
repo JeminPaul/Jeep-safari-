@@ -24,7 +24,7 @@ const AnimatedWord: React.FC<AnimatedWordProps> = ({ phrase }) => {
   }, [currentPhraseIndex, currentLetterIndex, phrase]);
 
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center"   >
       {phrase.map((line, lineIndex) => (
         <div key={lineIndex} className="flex">
           {line.map((letter, letterIndex) => (

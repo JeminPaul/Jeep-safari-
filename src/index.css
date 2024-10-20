@@ -19,3 +19,19 @@
   from, to { border-color: transparent }
   50% { border-color: black; }
 }
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 10s linear infinite;
+}
+
+.review-container:hover {
+  animation-play-state: paused;
+}

@@ -7,14 +7,28 @@ import Anakulam from './pages/Anakulam';
 import Vattavada from './pages/Vattavada';
 import Ponmudi from './pages/Ponmudi';
 import Marayoor from './pages/Marayoor';
-import Rooms from './pages/Rooms';
 import Home from './pages/Home';
 import Kattadipara from './pages/Kattadipara';
 import Offroad from './pages/Offroad';
 import Footer from './Components/Footter';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
+import Rooms from './pages/Rooms';
+
 
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      offset: 100,
+      duration: 500,
+      easing: "ease-out-cubic",
+      delay: 100,
+    });
+    AOS.refresh();
+  }, []);
+
   return (
     <Router> {/* Ensure the app is wrapped in BrowserRouter */}
       <div>

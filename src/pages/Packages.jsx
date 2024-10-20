@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Play } from 'lucide-react'; // Adding Play icon
 import AnimatedPhrase from '../Components/Animatedword';
+import CustomerReviews from '../Components/CoustomerReviews';
 
 // Import video files from the src/assets folder
 import anakkulamVideo from '../assets/Anakkulam.mp4';
@@ -37,9 +38,9 @@ const Packages = () => {
             </div> */}
 
             {/* Video Grid Section */}
-            <div className="bg-gray-100 py-16">
+            <div className="bg-gray-100 py-10">
                 <div className="container mx-auto px-4">
-                    <h2 className="text-3xl font-bold text-center mb-8">Explore Our Tour Packages</h2>
+                    <h2 className="text-3xl font-bold text-center mb-10">Explore Our Tour Packages</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {packages.map((pkg, index) => (
                             <div
@@ -70,27 +71,20 @@ const Packages = () => {
                                 </div>
 
                             </div>
+                            
                         ))}
                     </div>
+                </div>
+                <div>
+                    
                 </div>
             </div>
 
             {/* Description Section */}
-            <div className="bg-white py-16">
-                <div className="container mx-auto px-4">
-                    <p className="text-xl text-gray-700 leading-relaxed">
-                        Discover the beauty of Munnar with our exclusive tour packages. Experience breathtaking views,
-                        thrilling jeep safaris, and the lush greenery of the Western Ghats.
-                    </p>
-                    <p className="text-xl text-gray-700 leading-relaxed mt-4">
-                        Our packages take you through the heart of Munnar, offering you a chance to explore its most famous
-                        spots, including waterfalls, tea plantations, and off-road adventures.
-                    </p>
-                    <p className="text-xl text-gray-700 leading-relaxed mt-4">
-                        Book now to secure your spot and enjoy an unforgettable experience with our expert guides.
-                    </p>
-                </div>
+            <div className="bg-white py-16 ">
+               <CustomerReviews/>
             </div>
+            
         </div>
     );
 };
