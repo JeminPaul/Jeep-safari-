@@ -7,9 +7,9 @@ const CustomerReviews = () => {
     return savedReviews ? JSON.parse(savedReviews) : [
       { id: 1, name: 'Shyam Raj', rating: 5, comment: 'Amazing experience! The tour was breathtaking.' },
       { id: 2, name: 'Vishwanath r', rating: 4, comment: 'Great tour, very informative guides.' },
-      { id: 3, name: 'Mike Johnson', rating: 5, comment: 'Absolutely loved it! Will definitely come back.' },
+      { id: 3, name: 'Noel', rating: 5, comment: 'Absolutely loved it! Will definitely come back.' },
       { id: 4, name: 'Eliot', rating: 3, comment: 'Good experience ,Value for money' },
-      { id: 5, name: 'Alex Lee', rating: 5, comment: 'Unforgettable adventure! Highly recommended.' },
+      { id: 5, name: 'Sayali', rating: 5, comment: 'Unforgettable adventure! Highly recommended.' },
       { id: 6, name: 'Sarah Wilson', rating: 4, comment: 'Beautiful scenery and friendly staff.' },
     ];
   });
