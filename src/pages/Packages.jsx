@@ -5,7 +5,7 @@ import AnimatedPhrase from '../Components/Animatedword';
 import CustomerReviews from '../Components/CoustomerReviews';
 
 // Import video files from the src/assets folder
-import anakkulamVideo from '../assets/Anakkulam.mp4';
+import anakkulamVideo from '../Assets/home22.mp4';
 import vattavadaVideo from '../Assets/vattavada1.mp4';
 import ponmudiVideo from '../Assets/home17.mp4';
 import marayoorVideo from '../Assets/home12.mp4';
@@ -40,7 +40,10 @@ const Packages = () => {
             {/* Video Grid Section */}
             <div className="bg-gray-100 py-10">
                 <div className="container mx-auto px-4">
-                    <h2 className="text-3xl font-bold text-center mb-10">Explore Our Tour Packages</h2>
+                <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-red-600 via-yellow-500 to-teal-600 text-center py-14 shadow-lg drop-shadow-xl">
+  Explore Our Tour Packages
+</h2>
+
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {packages.map((pkg, index) => (
                             <div

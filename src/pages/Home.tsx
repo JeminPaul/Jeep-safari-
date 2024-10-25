@@ -25,10 +25,10 @@ const Home = () => {
   const places=["Chunayammackal Waterfalls","OFF-Roads","Ponmudi Dam","Tea-plantation","Anakkulam view-point","Attukad-Waterfalls","Nadukani-hilltop","Attukad-Waterfalls","Anakkulam Rivercross"]
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className=" min-h-screen bg-gray-100">
       {/* Main Video Section */}
-      <div className="relative h-screen">
-        <video className="w-full h-full object-cover" autoPlay loop muted playsInline>
+      <div className="video-container relative h-screen">
+        <video className="bg-video w-full h-full object-cover" autoPlay loop muted playsInline>
           <source src={mainVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
@@ -50,7 +50,9 @@ const Home = () => {
       {/* Video Grid Section */}
       <div className="bg-gray-100 py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-8">Discover Munnar</h2>
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-center text-gray-800 mb-8">
+          Discover <span className="text-green-600">Munnar</span>
+        </h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {videoSources.map((video, index) => (
               <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden">

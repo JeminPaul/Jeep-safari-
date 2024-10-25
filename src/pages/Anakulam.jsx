@@ -8,6 +8,7 @@ import anakulamVideo3 from "../Assets/home23.mp4";
 import anakulamVideo4 from "../Assets/Anakulam2.mp4";
 import anakulamVideo5 from "../Assets/Anakulam1.mp4";
 import anakulamVideo6 from "../Assets/Anakulam3.mp4";
+import Kottappara1 from "../Assets/kottapara.mp4"
 
 const VideoSlider = ({ videos }) => {
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
@@ -72,7 +73,7 @@ const Anakulam = () => {
     {
       name: "Kottapara Viewpoint",
       description: "Experience breathtaking panoramic views of the surrounding hills and valleys.",
-      videos: [anakulamVideo1, anakulamVideo2, anakulamVideo3]
+      videos: [Kottappara1, anakulamVideo3]
     },
     {
       name: "Anakulam Tea Plantations",
@@ -112,6 +113,68 @@ const Anakulam = () => {
         <p className="text-xl text-center text-gray-600 mb-12 max-w-3xl mx-auto">
           Explore the hidden gems of Anakulam, where nature's beauty unfolds in every corner. From misty mountains to serene lakes, embark on a journey of wonder and tranquility.
         </p>
+
+        <div className="bg-gray-100 p-6 rounded-lg shadow-lg">
+  <h1 className="text-3xl font-bold text-green-600 mb-4">Tour Description</h1>
+  <p className="text-gray-700 mb-4">
+    Anakulam Jeep tour invites you on a thrilling adventure journey in a Jeep Safari to explore the hidden beauty of Munnar. Even though Munnar is a small town, every inch is equally beautiful. Experience the flora and fauna up close. The jeep safari offers even more fun and adventures, making it a memorable trip for a lifetime.
+  </p>
+  
+  <div className="bg-white p-4 rounded-lg mb-4">
+    <h2 className="text-2xl font-semibold text-green-500 mb-2">Package Highlights</h2>
+    <ul className="list-disc list-inside text-gray-600">
+      <li>Thrilling off-road journey</li>
+      <li>Visit to a tourist village </li>
+      <li>Tea- Plantations</li>
+      <li>Kottappara view-point</li>
+      <li>Tiger-cave</li>
+      <li>Hanging bridge</li>
+      <li>Waterfall</li>
+      <li>River-crossing</li>
+      <li>Anakulam-Elephant view-point(The land of Wild-Elephants)</li>
+      
+    </ul>
+    <p className="mt-3 text-lg text-gray-800 font-semibold"> 7-8 Hours - ₹6500 per trip (up to 6 people)</p>
+  </div>
+
+  <h2 className="text-2xl font-bold text-green-600 mt-6 mb-2">Details</h2>
+  <div className="bg-white p-4 rounded-lg mb-4">
+    <h3 className="text-xl font-semibold text-green-500 mb-2">Inclusions</h3>
+    <ul className="list-inside list-disc text-gray-600">
+      <li>All taxes, fees, and handling charges</li>
+      <li>GST (Goods and Services Tax)</li>
+      <li>Bottled water & fruits</li>
+      <li>Professional guide</li>
+    </ul>
+  </div>
+
+  <div className="bg-white p-4 rounded-lg mb-4">
+    <h3 className="text-xl font-semibold text-green-500 mb-2">Exclusions</h3>
+    <ul className="list-inside list-disc text-gray-600">
+      <li>Gratuities (recommended)</li>
+      <li>Transportation to/from attractions</li>
+    </ul>
+  </div>
+
+  <div className="bg-white p-4 rounded-lg mb-4">
+    <h3 className="text-xl font-semibold text-green-500 mb-2">Additional Info</h3>
+    <p className="text-gray-600">
+      Confirmation will be received at the time of booking. Our team will connect with you for further details. The duration of transfers is approximate, depending on traffic and time of day.
+    </p>
+  </div>
+
+  <div className="bg-white p-4 rounded-lg mb-4">
+    <h3 className="text-xl font-semibold text-green-500 mb-2">Cancellation Policy</h3>
+    <p className="text-gray-600">For a full refund, cancel at least 24 hours before the start date of the experience.</p>
+  </div>
+
+  <div className="bg-white p-4 rounded-lg mb-4">
+    <h3 className="text-xl font-semibold text-green-500 mb-2">Departure Point</h3>
+    <p className="text-gray-600"> Return : At Pick up point</p>
+    <p className="text-gray-600">Anachal, Munnar,Kerala</p>
+    <p className="text-gray-600">Contact: +91 6238343996</p>
+  </div>
+</div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {places.map((place, index) => (
