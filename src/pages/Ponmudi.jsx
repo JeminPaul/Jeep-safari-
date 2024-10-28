@@ -17,6 +17,9 @@ import anakulamVideo4 from "../Assets/Anakulam2.mp4";
 import anakulamVideo5 from "../Assets/Anakulam1.mp4";
 import anakulamVideo6 from "../Assets/Anakulam3.mp4";
 import BookButton from '../Components/Bookbutton';
+import kallimali from "../Assets/kallimali.mp4"
+import nadukani2 from "../Assets/nadukani2.mp4"
+import echo from "../Assets/echopoint.mp4"
 // import dam1 from "../Assets/home17"
 
 const VideoSlider = ({ videos }) => {
@@ -97,17 +100,17 @@ const Ponmudi = () => {
     {
       name: "Echo-Point",
       description: "Witness the mesmerizing beauty of cascading waters surrounded by dense forests.",
-      videos: [anakulamVideo4, anakulamVideo2]
+      videos: [echo ]
     },
     {
       name: "Nadukani-Mountain",
       description: "Witness the mesmerizing beauty of cascading waters surrounded by dense forests.",
-      videos: [nadukani1, anakulamVideo2]
+      videos: [nadukani1,nadukani2]
     },
     {
       name: "Kallimali-Viewpoint",
       description: "Witness the mesmerizing beauty of cascading waters surrounded by dense forests.",
-      videos: [anakulamVideo3, anakulamVideo4, anakulamVideo6, anakulamVideo5]
+      videos: [kallimali]
     },
     // Add more places as needed
   ];

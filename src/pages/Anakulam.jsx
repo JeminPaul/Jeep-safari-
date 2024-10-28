@@ -100,7 +100,7 @@ const Anakulam = () => {
     {
       name: "Hanging Bridge",
       description: "Witness the mesmerizing beauty of cascading waters surrounded by dense forests.",
-      videos: [bridge1, anakulamVideo1]
+      videos: [bridge1]
     },
     {
       name: "Anakulam Viewpoint (The Land of Elephants)",
