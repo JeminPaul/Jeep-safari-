@@ -13,12 +13,13 @@ import Kattadiparavideo from '../Assets/kattadipara1.mp4';
 import offroadvideo from '../Assets/mullanthandu.mp4'
 
 
+
 // Array of package details with imported video sources
 const packages = [
     { name: 'Anakulam Package', path: '/anakulam', videoSrc: anakkulamVideo },
     { name: 'Vattavada Package', path: '/vattavada', videoSrc: vattavadaVideo },
     { name: 'Ponmudi Package', path: '/ponmudi', videoSrc: ponmudiVideo },
-    { name: 'Marayoor Package', path: '/marayoor', videoSrc: marayoorVideo },
+    { name: 'Silent-valley Package', path: '/marayoor', videoSrc: marayoorVideo },
     {name:'Kattadipara package ',path:'/kattadipara',videoSrc:Kattadiparavideo},
     {name:'Off-Road package',path:'/offroad',videoSrc:offroadvideo}
 ];
@@ -38,7 +39,7 @@ const Packages = () => {
             </div> */}
 
             {/* Video Grid Section */}
-            <div className="bg-gray-100 py-10">
+            <div className="bg-green-200 py-10">
                 <div className="container mx-auto px-4">
                 <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-red-600 via-yellow-500 to-teal-600 text-center py-14 shadow-lg drop-shadow-xl">
   Explore Our Tour Packages
@@ -67,7 +68,7 @@ const Packages = () => {
                                     <h3 className="font-bold text-2xl text-center mb-4 text-gray-800">{pkg.name}</h3>
                                     <Link
                                         to={pkg.path}
-                                        className="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors"
+                                        className="inline-block bg-gradient-to-r from-yellow-400 to-lime-400 text-black font-bold py-2 px-4 rounded-full shadow-lg transform transition-all duration-300 hover:scale-105 hover:from-red-800 hover:to-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-300 text-lg sm:text-xl"
                                     >
                                         View Package
                                     </Link>
@@ -82,6 +83,7 @@ const Packages = () => {
                     
                 </div>
             </div>
+    
 
             {/* Description Section */}
             <div className="bg-white py-16 ">

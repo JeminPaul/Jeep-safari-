@@ -34,7 +34,7 @@ const Footer = () => {
             <a href="https://facebook.com" className="hover:text-gray-400">
               <Facebook size={24} />
             </a>
-            <a href="https://instagram.com" className="hover:text-gray-400">
+            <a href="https://www.instagram.com/_kl06_offroader/" className="hover:text-gray-400">
               <Instagram size={24} />
             </a>
             <a href="https://twitter.com" className="hover:text-gray-400">
@@ -45,10 +45,10 @@ const Footer = () => {
             </a>
           </div>
           <p className="text-gray-400">
-            <span className="font-bold">Email:</span> info@tourpackage.com
+            <span className="font-bold">Email:</span> jeminpaul1999@gmail.com
           </p>
           <p className="text-gray-400">
-            <span className="font-bold">Phone:</span> +1 234 567 890
+            <span className="font-bold">Phone:</span> +91 6238343996
           </p>
         </div>
       </div>

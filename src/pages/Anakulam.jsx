@@ -7,8 +7,15 @@ import anakulamVideo2 from "../Assets/rivercross-2.mp4";
 import anakulamVideo3 from "../Assets/home23.mp4";
 import anakulamVideo4 from "../Assets/Anakulam2.mp4";
 import anakulamVideo5 from "../Assets/Anakulam1.mp4";
-import anakulamVideo6 from "../Assets/Anakulam3.mp4";
+import anakulamVideo6 from "../Assets/anakulam-9.mp4";
 import Kottappara1 from "../Assets/kottapara.mp4"
+import kottappara2 from "../Assets/kottappara-2.mp4"
+import tea1 from "../Assets/home1.mp4"
+import tea2 from "../Assets/bg-video1.mp4"
+import bridge1 from "../Assets/bridge-3.mp4"
+import falls1 from "../Assets/33 waterfall2.mp4"
+import falls2 from "../Assets/33waterfall.mp4"
+import falls3 from "../Assets/33 falls.mp4"
 
 const VideoSlider = ({ videos }) => {
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
@@ -22,7 +29,7 @@ const VideoSlider = ({ videos }) => {
   };
 
   return (
-    <div className="relative aspect-w-16 aspect-h-10 rounded-md overflow-hidden shadow-lg mb-4 sm:mb-6">
+    <div className="relative aspect-w-16 aspect-h-5 rounded-md overflow-hidden shadow-lg mb-4 sm:mb-6">
       <video
         className="w-full h-full object-cover"
         autoPlay
@@ -73,38 +80,38 @@ const Anakulam = () => {
     {
       name: "Kottapara Viewpoint",
       description: "Experience breathtaking panoramic views of the surrounding hills and valleys.",
-      videos: [Kottappara1, anakulamVideo3]
+      videos: [Kottappara1, kottappara2]
     },
     {
       name: "Anakulam Tea Plantations",
       description: "Wander through lush green tea gardens and learn about tea production.",
-      videos: [anakulamVideo2, anakulamVideo3, anakulamVideo1]
+      videos: [tea1, tea2]
     },
     {
       name: "Anakulam 33 Waterfall",
       description: "Witness the mesmerizing beauty of cascading waters surrounded by dense forests.",
-      videos: [anakulamVideo3, anakulamVideo1, anakulamVideo2]
+      videos: [falls2, falls1,falls3]
     },
     {
       name: "River-Cross",
       description: "Witness the mesmerizing beauty of cascading waters surrounded by dense forests.",
-      videos: [anakulamVideo1, anakulamVideo4, anakulamVideo2]
+      videos: [anakulamVideo1,  anakulamVideo2]
     },
     {
       name: "Hanging Bridge",
       description: "Witness the mesmerizing beauty of cascading waters surrounded by dense forests.",
-      videos: [anakulamVideo3, anakulamVideo1, anakulamVideo2]
+      videos: [bridge1, anakulamVideo1]
     },
     {
       name: "Anakulam Viewpoint (The Land of Elephants)",
       description: "Witness the mesmerizing beauty of cascading waters surrounded by dense forests.",
-      videos: [anakulamVideo3, anakulamVideo4, anakulamVideo6, anakulamVideo5]
+      videos: [anakulamVideo6,anakulamVideo3, anakulamVideo4,  anakulamVideo5]
     },
     // Add more places as needed
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-green-50 to-blue-50 py-12 px-4 sm:px-6 lg:px-8">
+    <div className=" min-h-screen bg-gradient-to-bl from-green-50 to-blue-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-center text-gray-800 mb-8">
           Discover <span className="text-green-600">Anakulam</span>
@@ -114,7 +121,7 @@ const Anakulam = () => {
           Explore the hidden gems of Anakulam, where nature's beauty unfolds in every corner. From misty mountains to serene lakes, embark on a journey of wonder and tranquility.
         </p>
 
-        <div className="bg-gray-100 p-6 rounded-lg shadow-lg">
+        <div className="bg-green-300 p-6 rounded-lg shadow-lg">
   <h1 className="text-3xl font-bold text-green-600 mb-4">Tour Description</h1>
   <p className="text-gray-700 mb-4">
     Anakulam Jeep tour invites you on a thrilling adventure journey in a Jeep Safari to explore the hidden beauty of Munnar. Even though Munnar is a small town, every inch is equally beautiful. Experience the flora and fauna up close. The jeep safari offers even more fun and adventures, making it a memorable trip for a lifetime.
@@ -200,9 +207,9 @@ const Anakulam = () => {
             href="https://wa.me/+917560966897"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-gradient-to-r from-green-500 to-blue-500 text-white font-bold py-4 px-8 rounded-full shadow-lg transform transition-all duration-300 hover:scale-105 hover:from-green-600 hover:to-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-300 text-lg sm:text-xl"
+            className="inline-block bg-gradient-to-r from-green-500 to-blue-500 text-black font-bold py-4 px-8 rounded-full shadow-lg transform transition-all duration-300 hover:scale-105 hover:from-green-600 hover:to-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-300 text-lg sm:text-xl"
           >
-            Book Your Anakulam Adventure Now
+            Book  Now
           </a>
         </div>
       </div>

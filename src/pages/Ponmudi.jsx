@@ -82,22 +82,22 @@ const Ponmudi = () => {
     {
       name: "Chunayamackal Watterfalls",
       description: "Experience breathtaking panoramic views of the surrounding hills and valleys.",
-      videos: [Waterfall1, Waterfall2,Waterfall3]
+      videos: [Waterfall1, Waterfall2, Waterfall3]
     },
     {
       name: "Hanging-Bridge",
       description: "Wander through lush green tea gardens and learn about tea production.",
-      videos: [bridge2,bridge1,]
+      videos: [bridge2, bridge1,]
     },
     {
       name: "Ponmudi-Dam",
       description: "Witness the mesmerizing beauty of cascading waters surrounded by dense forests.",
-      videos: [Dam2,Dam1]
+      videos: [Dam2, Dam1]
     },
     {
       name: "Echo-Point",
       description: "Witness the mesmerizing beauty of cascading waters surrounded by dense forests.",
-      videos: [ anakulamVideo4, anakulamVideo2]
+      videos: [anakulamVideo4, anakulamVideo2]
     },
     {
       name: "Nadukani-Mountain",
@@ -118,63 +118,63 @@ const Ponmudi = () => {
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-center text-gray-800 mb-8">
           Discover <span className="text-green-600">Ponmudi</span>
         </h1>
-        
+
         <div className="bg-gray-100 p-6 rounded-lg shadow-lg">
-  <h1 className="text-3xl font-bold text-green-600 mb-4">Tour Description</h1>
-  <p className="text-gray-700 mb-4">
-    Ponmud Jeep tour invites you on a thrilling adventure journey in a Jeep Safari to explore the hidden beauty of Munnar. Even though Munnar is a small town, every inch is equally beautiful. Experience the flora and fauna up close. The jeep safari offers even more fun and adventures, making it a memorable trip for a lifetime.
-  </p>
-  
-  <div className="bg-white p-4 rounded-lg mb-4">
-    <h2 className="text-2xl font-semibold text-green-500 mb-2">Package Highlights</h2>
-    <ul className="list-disc list-inside text-gray-600">
-      <li>Thrilling off-road journey</li>
-      <li>Visit to a tourist village & waterfall</li>
-      <li>Hanging bridge and dam views</li>
-      <li>Picnic point (sunrise & sunset options)</li>
-      <li>Serene lake view</li>
-    </ul>
-    <p className="mt-3 text-lg text-gray-800 font-semibold">3-4 Hours - ₹3000 per trip (up to 6 people)</p>
-  </div>
+          <h1 className="text-3xl font-bold text-green-600 mb-4">Tour Description</h1>
+          <p className="text-gray-700 mb-4">
+            Ponmud Jeep tour invites you on a thrilling adventure journey in a Jeep Safari to explore the hidden beauty of Munnar. Even though Munnar is a small town, every inch is equally beautiful. Experience the flora and fauna up close. The jeep safari offers even more fun and adventures, making it a memorable trip for a lifetime.
+          </p>
 
-  <h2 className="text-2xl font-bold text-green-600 mt-6 mb-2">Details</h2>
-  <div className="bg-white p-4 rounded-lg mb-4">
-    <h3 className="text-xl font-semibold text-green-500 mb-2">Inclusions</h3>
-    <ul className="list-inside list-disc text-gray-600">
-      <li>All taxes, fees, and handling charges</li>
-      <li>GST (Goods and Services Tax)</li>
-      <li>Bottled water & fruits</li>
-      <li>Professional guide</li>
-    </ul>
-  </div>
+          <div className="bg-white p-4 rounded-lg mb-4">
+            <h2 className="text-2xl font-semibold text-green-500 mb-2">Package Highlights</h2>
+            <ul className="list-disc list-inside text-gray-600">
+              <li>Thrilling off-road journey</li>
+              <li>Visit to a tourist village & waterfall</li>
+              <li>Hanging bridge and dam views</li>
+              <li>Picnic point (sunrise & sunset options)</li>
+              <li>Serene lake view</li>
+            </ul>
+            <p className="mt-3 text-lg text-gray-800 font-semibold">3-4 Hours - ₹3000 per trip (up to 6 people)</p>
+          </div>
 
-  <div className="bg-white p-4 rounded-lg mb-4">
-    <h3 className="text-xl font-semibold text-green-500 mb-2">Exclusions</h3>
-    <ul className="list-inside list-disc text-gray-600">
-      <li>Gratuities (recommended)</li>
-      <li>Transportation to/from attractions</li>
-    </ul>
-  </div>
+          <h2 className="text-2xl font-bold text-green-600 mt-6 mb-2">Details</h2>
+          <div className="bg-white p-4 rounded-lg mb-4">
+            <h3 className="text-xl font-semibold text-green-500 mb-2">Inclusions</h3>
+            <ul className="list-inside list-disc text-gray-600">
+              <li>All taxes, fees, and handling charges</li>
+              <li>GST (Goods and Services Tax)</li>
+              <li>Bottled water & fruits</li>
+              <li>Professional guide</li>
+            </ul>
+          </div>
 
-  <div className="bg-white p-4 rounded-lg mb-4">
-    <h3 className="text-xl font-semibold text-green-500 mb-2">Additional Info</h3>
-    <p className="text-gray-600">
-      Confirmation will be received at the time of booking. Our team will connect with you for further details. The duration of transfers is approximate, depending on traffic and time of day.
-    </p>
-  </div>
+          <div className="bg-white p-4 rounded-lg mb-4">
+            <h3 className="text-xl font-semibold text-green-500 mb-2">Exclusions</h3>
+            <ul className="list-inside list-disc text-gray-600">
+              <li>Gratuities (recommended)</li>
+              <li>Transportation to/from attractions</li>
+            </ul>
+          </div>
 
-  <div className="bg-white p-4 rounded-lg mb-4">
-    <h3 className="text-xl font-semibold text-green-500 mb-2">Cancellation Policy</h3>
-    <p className="text-gray-600">For a full refund, cancel at least 24 hours before the start date of the experience.</p>
-  </div>
+          <div className="bg-white p-4 rounded-lg mb-4">
+            <h3 className="text-xl font-semibold text-green-500 mb-2">Additional Info</h3>
+            <p className="text-gray-600">
+              Confirmation will be received at the time of booking. Our team will connect with you for further details. The duration of transfers is approximate, depending on traffic and time of day.
+            </p>
+          </div>
 
-  <div className="bg-white p-4 rounded-lg mb-4">
-    <h3 className="text-xl font-semibold text-green-500 mb-2">Departure Point</h3>
-    <p className="text-gray-600"> Return : At Pick up point</p>
-    <p className="text-gray-600">Anachal, Munnar</p>
-    <p className="text-gray-600">Contact: +91 6238343996</p>
-  </div>
-</div>
+          <div className="bg-white p-4 rounded-lg mb-4">
+            <h3 className="text-xl font-semibold text-green-500 mb-2">Cancellation Policy</h3>
+            <p className="text-gray-600">For a full refund, cancel at least 24 hours before the start date of the experience.</p>
+          </div>
+
+          <div className="bg-white p-4 rounded-lg mb-4">
+            <h3 className="text-xl font-semibold text-green-500 mb-2">Departure Point</h3>
+            <p className="text-gray-600"> Return : At Pick up point</p>
+            <p className="text-gray-600">Anachal, Munnar</p>
+            <p className="text-gray-600">Contact: +91 6238343996</p>
+          </div>
+        </div>
 
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
@@ -183,22 +183,22 @@ const Ponmudi = () => {
           ))}
         </div>
 
-      <div className="bg-white rounded-lg shadow-md p-8 mb-12">
-  <h2 className="text-3xl font-semibold mb-4 text-gray-800">Discover the Wonders of Ponmudi</h2>
-  <p className="text-gray-600 mb-4">
-    Ponmudi is a hidden gem offering breathtaking views and thrilling adventures. From cascading waterfalls to the historical British-made hanging bridge, the journey is filled with exciting experiences for every traveler.
-  </p>
-  <p className="text-gray-600 mb-4">
-    Explore the tranquil beauty of dam views, soak in the natural acoustics at Echo Point, and enjoy a panoramic view from the top of Nadukani Mountain. Whether you're an adventurer or a nature lover, Ponmudi promises an unforgettable escape.
-  </p>
-  <p className="text-gray-600">
-    Embrace the charm of the mountains and create memories that will last a lifetime in this serene paradise.
-  </p>
-</div>
+        <div className="bg-white rounded-lg shadow-md p-8 mb-12">
+          <h2 className="text-3xl font-semibold mb-4 text-gray-800">Discover the Wonders of Ponmudi</h2>
+          <p className="text-gray-600 mb-4">
+            Ponmudi is a hidden gem offering breathtaking views and thrilling adventures. From cascading waterfalls to the historical British-made hanging bridge, the journey is filled with exciting experiences for every traveler.
+          </p>
+          <p className="text-gray-600 mb-4">
+            Explore the tranquil beauty of dam views, soak in the natural acoustics at Echo Point, and enjoy a panoramic view from the top of Nadukani Mountain. Whether you're an adventurer or a nature lover, Ponmudi promises an unforgettable escape.
+          </p>
+          <p className="text-gray-600">
+            Embrace the charm of the mountains and create memories that will last a lifetime in this serene paradise.
+          </p>
+        </div>
 
 
         <div className="text-center">
-        <BookButton/>
+          <BookButton />
         </div>
       </div>
     </div>
